@@ -11,22 +11,24 @@ const allProjects = [
     link: "https://github.com/azizuldz10/portfolio",
     demo: "https://dzdev.vercel.app"
   },
-  {
-    title: "Research Publication Platform",
-    description: "A platform for managing and showcasing research publications. Built with React and Firebase, featuring authentication and real-time updates.",
-    image: "/images/research.png",
-    tech: ["React", "Firebase", "Material-UI", "Node.js"],
-    link: "https://github.com/azizuldz10/research-platform",
-    demo: "https://research-platform.vercel.app"
-  },
-  {
-    title: "Data Visualization Dashboard",
-    description: "Interactive dashboard for visualizing complex datasets. Implements various chart types and filtering capabilities.",
-    image: "/images/dashboard.png",
-    tech: ["React", "D3.js", "TailwindCSS", "REST API"],
-    link: "https://github.com/azizuldz10/data-viz",
-    demo: "https://data-viz-dashboard.vercel.app"
-  }
+  // {
+  //   title: "Research Publication Platform",
+  //   description: "A platform for managing and showcasing research publications. Built with React and Firebase, featuring authentication and real-time updates.",
+  //   image: "/images/research.png",
+  //   tech: ["React", "Firebase", "Material-UI", "Node.js"],
+  //   link: "https://github.com/azizuldz10/research-platform",
+  //   demo: "https://research-platform.vercel.app"
+  //   // Not Yet
+  // },
+  // {
+  //   title: "Data Visualization Dashboard",
+  //   description: "Interactive dashboard for visualizing complex datasets. Implements various chart types and filtering capabilities.",
+  //   image: "/images/dashboard.png",
+  //   tech: ["React", "D3.js", "TailwindCSS", "REST API"],
+  //   link: "https://github.com/azizuldz10/data-viz",
+  //   demo: "https://data-viz-dashboard.vercel.app"
+  //   // Not Yet
+  // }
 ];
 
 export default function ProjectGrid() {
