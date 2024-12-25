@@ -3,41 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --primary: #2563eb;
-  --secondary: #4f46e5;
-  --background: #ffffff;
-  --foreground: #171717;
-  --accent: #0ea5e9;
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
 }
 
-.dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-  --primary: #3b82f6;
-  --secondary: #6366f1;
-  --accent: #38bdf8;
+[data-theme='dark'] {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 0, 0, 0;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  transition: background-color 0.3s ease;
-}
-
-@layer utilities {
-  .gradient-text {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
-  }
-  
-  .flex-grow {
-    flex-grow: 1;
-  }
-  
-  .flex-col {
-    flex-direction: column;
-  }
-  
-  .min-h-screen {
-    min-height: 100vh;
-  }
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
 }

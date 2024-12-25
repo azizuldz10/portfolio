@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import ProfileImage from '@/components/ProfileImage';
 
 export default function AboutSection() {
   return (
@@ -24,7 +25,7 @@ export default function AboutSection() {
             </div>
           </div>
           <div className="relative">
-            {/* Tambahkan gambar atau ilustrasi di sini */}
+            <ProfileImage />
           </div>
         </motion.div>
       </div>
