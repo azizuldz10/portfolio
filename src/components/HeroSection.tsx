@@ -41,7 +41,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
           >
-            Hi, I'm DzDev
+            Hi, I'm DzDev HIHIHIHIH
           </motion.h1>
           
           <motion.p
